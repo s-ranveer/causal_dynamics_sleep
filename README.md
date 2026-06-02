@@ -48,10 +48,10 @@ The variables are not referred to as such in the code and are referred to as
 | Snoring  | DeSat, Pulse                                     | N/A                                          |
 
 ## Learning DSCMS (learn_dscms.py)
-We are using the tigramite package to learn the PCMCI+ model from the data. We would be learning the time-series causal graph across different bootstrap samples and merging them using model averaging to get the final time-series causal graph. Please look into the file on how to set the hyperparameters such as the number of bootstraps, mci, and posterior threshold.
+We are using the tigramite package to learn the PCMCI+ model from the data. We would be learning the time-series causal graph across different bootstrap samples and merging them using model averaging to get the final time-series causal graph. Please look into the file on how to set the hyperparameters, such as the number of bootstraps, mci, and posterior threshold.
 
 ## Results 
-The results are presented in the results directory
+The results contain the CSVs for the adjacency list of edges learnt using PCMCI+, followed by the edge structures admitted during aggregation
 
 ## Remaining Code and Data
 The data is not available at the moment, and its availability can't be guaranteed in the future. The full code will be made available on acceptance of the work for publication
