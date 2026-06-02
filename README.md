@@ -1,7 +1,7 @@
-# Dynamic Structural Causal Modeling for Sleep
+## Dynamic Structural Causal Modeling for Sleep
 This is our repository containing the supplementary for the work submitted to DDDAS 2026.
 
-## Windowed Variables (process_data.py)
+### Windowed Variables (process_data.py)
 The windowed features computed for dynamic causal modelling are described below
   1. ApneaHypopnea (AHE/A). The burden of complete or near-complete upper airway obstruction events within the analysis window. Detected from the flow signal as drops of ≥90% (apnea) or ≥30% (hypopnea) from a 120s rolling median baseline, confirmed by accompanying oxygen desaturation of ≥3%. 
 Ref: AASM Scoring Manual v2.6. We underestimate the AHI prevalence in a home sleep study, as EEG arousal information is not available in a Type IV Sleep Study.
@@ -17,9 +17,19 @@ The variables are not referred to as such in the code and are referred to as
   
   |Feature|Name in Code|Node on Graph|
   |-------|------------|-------------|
-  |AHE|ahe_proxy_fraction |A|
+  |AHE|ahe_proxy_fraction|A|
   |IFL|ifl_proxy_breath_fraction|I|
   |FLRE|flow_limited_effort_fraction|F|
   |Pulse|pulse_activation_fraction|P|
   |DeSat|odi3_desaturation_fraction|D|
   |Snoring|snoring_bout_fraction|S|
+
+
+## Learning DSCMS (learn_dscms.py)
+We are using the tigramite package to learn the PCMCI+ model from the data. We would be learning the time-series causal graph across different bootstrap samples and merging them using model averaging to get the final time-series causal graph. Please look into the file on how to set the hyperparameters such as the number of bootstraps, mci, and posterior threshold.
+
+## Results 
+The results are presented in the results directory
+
+## Remaining Code and Data
+The data is not available at the moment, and its availability can't be guaranteed in the future. The full code will be made available once the 
