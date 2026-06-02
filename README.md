@@ -25,6 +25,28 @@ The variables are not referred to as such in the code and are referred to as
   |Snoring|snoring_bout_fraction|S|
 
 
+## White List Edges
+
+| Variable | Candidate Causes (Contemporary, Current Window) | Candidate Causes (Temporal, Previous Window) |
+|----------|--------------------------------------------------|----------------------------------------------|
+| AHE      | IFL, Snoring, FLRE                               | AHE, IFL, DeSat, Snoring, FLRE               |
+| FLRE     | Snoring                                          | AHE, DeSat, Pulse, Snoring                   |
+| IFL      | FLRE, Snoring                                    | AHE, FLRE, Snoring, Pulse, DeSat             |
+| DeSat    | AHE                                              | AHE, FLRE, IFL                               |
+| Pulse    | DeSat                                            | AHE, FLRE, IFL, DeSat                        |
+| Snoring  | FLRE, IFL                                        | FLRE, IFL                                    |
+
+## Black List Edges
+
+| Variable | Candidate Causes (Contemporary, Current Window) | Candidate Causes (Temporal, Previous Window) |
+|----------|--------------------------------------------------|----------------------------------------------|
+| AHE      | DeSat, Pulse                                     | N/A                                          |
+| FLRE     | AHE, IFL, DeSat, Pulse                           | N/A                                          |
+| IFL      | DeSat, Pulse                                     | N/A                                          |
+| DeSat    | FLRE, Snoring, Pulse                             | N/A                                          |
+| Pulse    | IFL, Snoring, FLRE                               | N/A                                          |
+| Snoring  | DeSat, Pulse                                     | N/A                                          |
+
 ## Learning DSCMS (learn_dscms.py)
 We are using the tigramite package to learn the PCMCI+ model from the data. We would be learning the time-series causal graph across different bootstrap samples and merging them using model averaging to get the final time-series causal graph. Please look into the file on how to set the hyperparameters such as the number of bootstraps, mci, and posterior threshold.
 
