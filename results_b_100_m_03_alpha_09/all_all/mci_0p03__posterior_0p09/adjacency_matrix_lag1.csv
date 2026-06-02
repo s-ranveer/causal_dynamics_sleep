@@ -1,0 +1,7 @@
+,ahe_proxy_fraction,ifl_proxy_breath_fraction,flow_limited_effort_fraction,pulse_activation_fraction,odi3_desaturation_fraction,snoring_bout_fraction
+ahe_proxy_fraction,0.5926363061688236,0.0,0.0,-0.035374524636009125,-0.07419456043371805,0.0
+ifl_proxy_breath_fraction,0.0,0.4099397114418176,0.0,0.0,0.0,0.0
+flow_limited_effort_fraction,0.0,0.0,0.2765497214058929,0.0,0.0,0.0
+pulse_activation_fraction,0.0,0.0,0.0,0.3284469917299133,0.0,0.0
+odi3_desaturation_fraction,0.0,0.0,0.0,0.0,0.5862160755879244,0.0
+snoring_bout_fraction,0.0,0.0,0.0,0.0,0.0,0.4733471700863744

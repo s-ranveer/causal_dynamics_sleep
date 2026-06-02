@@ -1,0 +1,12 @@
+source_node,target_node,lag,graph_entry,p_value,test_statistic,mci_value,abs_mci_value,selected_adjacency,selected,is_contemporaneous,method,posterior,bootstrap_count,mci_bootstrap_count
+ifl_proxy_breath_fraction,ahe_proxy_fraction,0,-->,,-0.06904700108056812,-0.06904700108056812,0.06904700108056812,True,True,True,bootstrap_gma_threshold_sweep,0.22,22,46
+ahe_proxy_fraction,snoring_bout_fraction,0,-->,,-0.07758516845996445,-0.07758516845996445,0.07758516845996445,True,True,True,bootstrap_gma_threshold_sweep,0.35,35,37
+ahe_proxy_fraction,ahe_proxy_fraction,1,-->,,0.5703318320241566,0.5703318320241566,0.5703318320241566,True,True,False,bootstrap_gma_threshold_sweep,0.25,25,100
+odi3_desaturation_fraction,ahe_proxy_fraction,1,-->,,0.03971577247765418,0.03971577247765418,0.03971577247765418,True,True,False,bootstrap_gma_threshold_sweep,0.25,25,39
+flow_limited_effort_fraction,flow_limited_effort_fraction,1,-->,,0.19692365625034836,0.19692365625034836,0.19692365625034836,True,True,False,bootstrap_gma_threshold_sweep,0.87,87,87
+ifl_proxy_breath_fraction,ifl_proxy_breath_fraction,1,-->,,0.40815173619617867,0.40815173619617867,0.40815173619617867,True,True,False,bootstrap_gma_threshold_sweep,0.93,93,100
+ahe_proxy_fraction,odi3_desaturation_fraction,1,-->,,-0.06480592785242592,-0.06480592785242592,0.06480592785242592,True,True,False,bootstrap_gma_threshold_sweep,1.0,100,100
+odi3_desaturation_fraction,odi3_desaturation_fraction,1,-->,,0.5788070828916367,0.5788070828916367,0.5788070828916367,True,True,False,bootstrap_gma_threshold_sweep,1.0,100,100
+odi3_desaturation_fraction,pulse_activation_fraction,1,-->,,0.03378254130797109,0.03378254130797109,0.03378254130797109,True,True,False,bootstrap_gma_threshold_sweep,0.25,25,27
+pulse_activation_fraction,pulse_activation_fraction,1,-->,,0.32561113423354826,0.32561113423354826,0.32561113423354826,True,True,False,bootstrap_gma_threshold_sweep,0.71,71,100
+snoring_bout_fraction,snoring_bout_fraction,1,-->,,0.468299998432386,0.468299998432386,0.468299998432386,True,True,False,bootstrap_gma_threshold_sweep,0.56,56,100

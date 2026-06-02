@@ -1,0 +1,6 @@
+cohort,mci_threshold,posterior_threshold,n_bootstraps,thresholded_bootstrap_edge_count,structure_count,retained_structure_count,accepted_structure_count,selected_edge_count,output_dir
+age_old,0.03,0.09,100,877,25,13,12,11,temp_2/pcmci_plus/mci_0p03_posterior_0p09_outputs_100boot/age_old/mci_0p03__posterior_0p09
+age_young,0.03,0.09,100,1047,55,15,14,13,temp_2/pcmci_plus/mci_0p03_posterior_0p09_outputs_100boot/age_young/mci_0p03__posterior_0p09
+all_all,0.03,0.09,100,864,27,11,10,10,temp_2/pcmci_plus/mci_0p03_posterior_0p09_outputs_100boot/all_all/mci_0p03__posterior_0p09
+sex_female,0.03,0.09,100,854,25,15,14,13,temp_2/pcmci_plus/mci_0p03_posterior_0p09_outputs_100boot/sex_female/mci_0p03__posterior_0p09
+sex_male,0.03,0.09,100,867,33,11,10,11,temp_2/pcmci_plus/mci_0p03_posterior_0p09_outputs_100boot/sex_male/mci_0p03__posterior_0p09

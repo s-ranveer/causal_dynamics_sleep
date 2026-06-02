@@ -1,0 +1,14 @@
+source_node,target_node,lag,graph_entry,p_value,test_statistic,mci_value,abs_mci_value,selected_adjacency,selected,is_contemporaneous,method,posterior,bootstrap_count,mci_bootstrap_count
+ifl_proxy_breath_fraction,ahe_proxy_fraction,0,-->,,-0.08548865620648112,-0.08548865620648112,0.08548865620648112,True,True,True,bootstrap_gma_threshold_sweep,0.19,19,27
+snoring_bout_fraction,ahe_proxy_fraction,0,-->,,-0.12993315182795118,-0.12993315182795118,0.12993315182795118,True,True,True,bootstrap_gma_threshold_sweep,0.24,24,31
+ahe_proxy_fraction,ahe_proxy_fraction,1,-->,,0.6086961873201553,0.6086961873201553,0.6086961873201553,True,True,False,bootstrap_gma_threshold_sweep,0.43,43,100
+flow_limited_effort_fraction,flow_limited_effort_fraction,1,-->,,0.5202532767620739,0.5202532767620739,0.5202532767620739,True,True,False,bootstrap_gma_threshold_sweep,0.65,65,65
+ifl_proxy_breath_fraction,ifl_proxy_breath_fraction,1,-->,,0.40978415691628933,0.40978415691628933,0.40978415691628933,True,True,False,bootstrap_gma_threshold_sweep,0.15,15,100
+snoring_bout_fraction,ifl_proxy_breath_fraction,1,-->,,0.03758947752338704,0.03758947752338704,0.03758947752338704,True,True,False,bootstrap_gma_threshold_sweep,0.12,12,39
+ahe_proxy_fraction,odi3_desaturation_fraction,1,-->,,-0.09783560076106913,-0.09783560076106913,0.09783560076106913,True,True,False,bootstrap_gma_threshold_sweep,0.74,74,77
+odi3_desaturation_fraction,odi3_desaturation_fraction,1,-->,,0.5952873759967856,0.5952873759967856,0.5952873759967856,True,True,False,bootstrap_gma_threshold_sweep,0.74,74,100
+ahe_proxy_fraction,pulse_activation_fraction,1,-->,,-0.044690825579809544,-0.044690825579809544,0.044690825579809544,True,True,False,bootstrap_gma_threshold_sweep,0.39,39,70
+ifl_proxy_breath_fraction,pulse_activation_fraction,1,-->,,0.04141668019686013,0.04141668019686013,0.04141668019686013,True,True,False,bootstrap_gma_threshold_sweep,0.16,16,29
+pulse_activation_fraction,pulse_activation_fraction,1,-->,,0.3357264877132482,0.3357264877132482,0.3357264877132482,True,True,False,bootstrap_gma_threshold_sweep,0.39,39,100
+ifl_proxy_breath_fraction,snoring_bout_fraction,1,-->,,-0.041469327712694605,-0.041469327712694605,0.041469327712694605,True,True,False,bootstrap_gma_threshold_sweep,0.1,10,18
+snoring_bout_fraction,snoring_bout_fraction,1,-->,,0.4814846810008941,0.4814846810008941,0.4814846810008941,True,True,False,bootstrap_gma_threshold_sweep,0.64,64,100
