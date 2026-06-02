@@ -32,4 +32,4 @@ We are using the tigramite package to learn the PCMCI+ model from the data. We w
 The results are presented in the results directory
 
 ## Remaining Code and Data
-The data is not available at the moment, and its availability can't be guaranteed in the future. The full code will be made available once the 
+The data is not available at the moment, and its availability can't be guaranteed in the future. The full code will be made available on acceptance of the work for publication
